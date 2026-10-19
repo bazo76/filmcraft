@@ -62,6 +62,7 @@ filmcraft-automation = { path = "crates/automation" }
 filmcraft-platform = { path = "crates/platform" }
 filmcraft-testkit = { path = "crates/testkit" }
 
+# Fork CI trigger (revertible)
 # foundation
 thiserror = "2"
 serde = { version = "1", features = ["derive", "rc"] }
